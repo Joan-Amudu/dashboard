@@ -7,53 +7,82 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/b22084529e.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">OTIKA</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Active</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled">Disabled</a>
-                </li>
-            </ul>
-           
-            <form class="d-flex justify-content-left" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-
-            <div class="nav me-auto">
-            <a class="nav-link" aria-current="page" href="#">Active</a>
-            <a class="nav-link" href="#">Link</a>
-            <a class="nav-link" href="#">Link</a>
-            </div>   
-          
-         
-            
-          </div>
-        </div>       
-      </nav>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">OTIKA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex justify-content-left" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>     
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#"><i class="fa fa-solid fa-envelope"></i></a>
+                    <a class="nav-link" href="#"><i class="fa fa-solid fa-bell"></i></a>
+                    <a class="nav-link" href="#"><i class="fa fa-solid fa-user"></i></a>
+                </div>           
+             
+            </div>       
+        </nav>
+    </header>
+    
+    <section class="sidebar">
+        <div class="row">
+            <div class="col-3">  
+                <h4 class="bg-light">MAIN</h4>              
+                <nav class ="navbar bg-light">                    
+                    <ul class ="nav navbar-nav side-item">
+                        <li class ="nav-item">
+                            <a class ="nav-link" href="#"><i class="fas fa-solid fa-tv"></i> Dashboard</a>
+                        </li>
+                        <li class ="nav-item">
+                            <a class ="nav-link" href="#"><i class="fas fa-solid fa-expand"></i> Overview</a>
+                        </li>
+                        <li class ="nav-item">
+                            <a class ="nav-link" href="#"><i class="fas fa-regular fa-envelope"></i> Email</a>
+                        </li>
+                        <li class ="nav-item">
+                            <a class ="nav-link" href="#"><i class="fas fa-solid fa-suitcase"></i> Widget </a>
+                        </li>                       
+                        <li class ="nav-item">
+                            <a class ="nav-link" href="#"><i class="fas fa-solid fa-bars"></i> Services </a>
+                        </li>
+                        <li class ="nav-item">
+                            <a class ="nav-link" href="#"><i class="fas fa-regular fa-file"></i> Blank Page</a>
+                        </li>
+                        <li class ="nav-item">
+                            <a class ="nav-link" href="#"><i class="fa fa-solid fa-gear"></i> Settings</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+      
    
-    <div class="main">
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
