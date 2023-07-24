@@ -2,14 +2,90 @@
     color: black;
     
 }
+
 body {
     background: #B9B7BD;
     
+}
+.top-bar {
+    position: sticky;   
+    z-index: 99999;
+    width: 100%;
+    width: -webkit-fill-available;
 }
 
 .booking {
    margin-top: 5px;    
 }
+.brand {
+    text-align: center;
+}
+
+.brandIcons {  
+    display: contents; 
+ 
+}
+/*---------------------------------------------Media Queries*/
 
 
+/* small Screens*/
+@media screen and (max-width: 370px) {
+    .brand {
+        text-align: center;
+    }
+    .brandSearch {
+        display: none;
+    }
+    .brandSearch ul {
+        display: none;
+    }
+    .brandIcons a {
+        display: none;
+             
+    }
+    .navbar-vertical {
+        width: 120px;
+        z-index: 99999;
+    }
+
+
+}     
+ 
+  @media screen and (max-width: 600px) {
+   
+    .brandSearch ul {
+        display: none;
+    }
+   
+    .brandIcons a {
+          display: none;
+    }
+    .navbar-vertical {
+        width: 120px;
+        z-index: 99999;
+    }  
+    
+    .task {
+        width: 100%;
+    }
+  }
+  /* Medium Screens*/
+
+  @media screen and (min-width: 768px) {
+   
+    /*
+    .brandSearch ul {
+        display: none;
+    }
+   
+    .brandIcons a {
+          display: contents;
+    }
+    .navbar-vertical {
+        width: 120px;
+        z-index: 99999;
+    } */ 
+    
+   
+  }
 
