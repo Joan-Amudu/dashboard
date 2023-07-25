@@ -28,6 +28,14 @@ li i {
     display: contents; 
  
 }
+.week-earn i,
+.year-earn i {
+    color: green;
+    justify-items: center;
+}
+.month-earn i {
+    color: orange;
+}
 /*---------------------------------------------Media Queries*/
 
 
