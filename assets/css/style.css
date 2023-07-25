@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;700&display=swap');
+
 * {
-    color: black;
-    
+    color: black;    
 }
 
 body {
-    background: #B9B7BD;
-    
+    background: #B9B7BD;    
+}
+li i {
+    margin-right: 10px;
 }
 .top-bar {
     position: sticky;   
